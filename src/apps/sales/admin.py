@@ -1,7 +1,7 @@
 from django.contrib import admin
 
 from apps.base.admin import BaseModelAdmin
-from apps.sales.models import SaleOrder, SaleOrderLine
+from .models import SaleOrder, SaleOrderLine
 
 
 class SaleOrderLineInline(admin.TabularInline):

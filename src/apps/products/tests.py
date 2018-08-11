@@ -2,7 +2,7 @@ from rest_framework import status
 from rest_framework.reverse import reverse
 
 from apps.base.tests import BaseAPITest
-from apps.products.models import Category, Product, KitAttribute, KitAttValue
+from .models import Category, Product, KitAttribute, KitAttValue
 
 
 class CategoryAPITest(BaseAPITest):

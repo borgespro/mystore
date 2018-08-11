@@ -2,9 +2,9 @@ from django.http import Http404
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import generics
 
-from apps.products.filters import ProductFilter
-from apps.products.models import Category, Product, KitAttValue, KitAttribute
-from apps.products.serializers import CategorySerializer, ProductSerializer, KitSerializer, KitAttValueSerializer
+from .filters import ProductFilter
+from .models import Category, Product, KitAttValue, KitAttribute
+from .serializers import CategorySerializer, ProductSerializer, KitSerializer, KitAttValueSerializer
 
 
 class CategoryList(generics.ListAPIView):

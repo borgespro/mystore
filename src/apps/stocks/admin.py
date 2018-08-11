@@ -1,7 +1,7 @@
 from django.contrib import admin
 
 from apps.base.admin import BaseModelAdmin
-from apps.stocks.models import Warehouse, StockMovement, StockMovementLine
+from .models import Warehouse, StockMovement, StockMovementLine
 
 
 @admin.register(Warehouse)

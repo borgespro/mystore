@@ -1,5 +1,5 @@
 from django.urls import path
-from apps.products.views import CategoryList, SaleableCategoryList, ProductList, KitList, ProductDetail, KitDetail, \
+from .views import CategoryList, SaleableCategoryList, ProductList, KitList, ProductDetail, KitDetail, \
     AttributeValueList
 
 urlpatterns = [
