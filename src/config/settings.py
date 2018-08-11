@@ -24,6 +24,7 @@ INSTALLED_APPS = [
     'apps.core.apps.CoreConfig',
     'apps.products.apps.ProductsConfig',
     'apps.sales.apps.SalesConfig',
+    'apps.stocks.apps.StocksConfig',
 
     # Thirds' Libs
 

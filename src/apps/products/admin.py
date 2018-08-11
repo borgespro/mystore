@@ -14,11 +14,14 @@ class ProductAdmin(BaseModelAdmin):
     pass
 
 
+class KitAttValueInline(admin.TabularInline):
+    extra = 1
+    model = KitAttValue
+
+
 @admin.register(KitAttribute)
 class KitAttributeAdmin(BaseModelAdmin):
-    pass
+    inlines = [
+        KitAttValueInline,
+    ]
 
-
-@admin.register(KitAttValue)
-class KitAttValueAdmin(BaseModelAdmin):
-    pass
