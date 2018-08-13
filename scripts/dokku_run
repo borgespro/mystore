@@ -1,2 +1,1 @@
-cd ./src
 gunicorn wsgi -w 3
