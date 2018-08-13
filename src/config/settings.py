@@ -1,12 +1,18 @@
 import os
 
 import datetime
+import environ
+
+root = environ.Path(__file__) - 3
+env = environ.Env(DEBUG=(bool, False), )
+
+environ.Env.read_env(env_file='{}/.env'.format(root))
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-SECRET_KEY = '3lf*26qjj_6!b&s=f!y_ry3yn3+z6kadgdyzd0uq#ycjbuzv@h'
+SECRET_KEY = env('SECRET_KEY')
 
-DEBUG = True
+DEBUG = env('DEBUG')
 
 ALLOWED_HOSTS = []
 
@@ -64,10 +70,7 @@ WSGI_APPLICATION = 'wsgi.application'
 
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
+    'default': env.db()
 }
 
 AUTH_PASSWORD_VALIDATORS = [
