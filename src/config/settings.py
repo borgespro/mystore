@@ -27,10 +27,10 @@ INSTALLED_APPS = [
 
     # MyStore Apps
 
-    # 'apps.core.apps.CoreConfig',
-    # 'apps.products.apps.ProductsConfig',
-    # 'apps.sales.apps.SalesConfig',
-    # 'apps.stocks.apps.StocksConfig',
+    'apps.core.apps.CoreConfig',
+    'apps.products.apps.ProductsConfig',
+    'apps.sales.apps.SalesConfig',
+    'apps.stocks.apps.StocksConfig',
 
     # Thirds' Libs
 
@@ -105,7 +105,7 @@ JWT_AUTH = {
     'JWT_EXPIRATION_DELTA': datetime.timedelta(seconds=6000)
 }
 
-# AUTH_USER_MODEL = 'core.User'
+AUTH_USER_MODEL = 'core.User'
 
 LANGUAGE_CODE = 'pt-br'
 
