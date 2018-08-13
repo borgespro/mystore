@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="876fd2b1-ff02-402e-9d39-476ab1c7fc0b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/scripts/dokku_run" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/dokku_run" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/wsgi.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +32,7 @@
           <entry key="Procfile" value="1" />
           <entry key="config" value="1" />
           <entry key="dokku_run" value="1" />
-          <entry key="env" value="1" />
+          <entry key="env" value="2" />
           <entry key="gitignore" value="3" />
           <entry key="html" value="1" />
           <entry key="json" value="2" />
@@ -46,7 +45,7 @@
         <counts>
           <entry key="Dockerfile" value="2" />
           <entry key="JSON" value="2" />
-          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="PLAIN_TEXT" value="9" />
           <entry key="Python" value="288" />
           <entry key="Scratch" value="1" />
           <entry key="YAML" value="2" />
@@ -58,7 +57,7 @@
           <entry key="Procfile" value="82" />
           <entry key="config" value="12" />
           <entry key="dokku_run" value="39" />
-          <entry key="env" value="28" />
+          <entry key="env" value="30" />
           <entry key="gitignore" value="9" />
           <entry key="json" value="1" />
           <entry key="py" value="11477" />
@@ -70,7 +69,7 @@
         <counts>
           <entry key="Dockerfile" value="9" />
           <entry key="JSON" value="1" />
-          <entry key="PLAIN_TEXT" value="173" />
+          <entry key="PLAIN_TEXT" value="175" />
           <entry key="Python" value="11477" />
         </counts>
       </usages-collector>
@@ -78,15 +77,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor" />
@@ -119,7 +109,16 @@
         <entry file="file://$PROJECT_DIR$/scripts/dokku_run">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="26" selection-start-column="26" selection-end-column="26" />
+              <caret column="9" selection-start-column="9" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -259,7 +258,6 @@
         <option value="$PROJECT_DIR$/src/apps/sales/serializers.py" />
         <option value="$PROJECT_DIR$/src/apps/utils/trello.py" />
         <option value="$PROJECT_DIR$/src/config/settings.py" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/runtime.txt" />
         <option value="$PROJECT_DIR$/app.json" />
@@ -267,8 +265,9 @@
         <option value="$PROJECT_DIR$/gunicorn.config" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/scripts/dokku_run" />
         <option value="$PROJECT_DIR$/src/wsgi.py" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/scripts/dokku_run" />
       </list>
     </option>
   </component>
@@ -344,7 +343,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django tests.Run tests">
+  <component name="RunManager" selected="Django server.Run Django">
     <configuration name="Run tests" type="DjangoTestsConfigurationType" factoryName="Django tests" singleton="true">
       <module name="mystore" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -491,12 +490,12 @@
     <frame x="67" y="1105" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27006087" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27006087" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39891893" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -952,13 +951,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="12" selection-start-line="3" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="568">
@@ -994,25 +986,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/circle.yml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1024,10 +1002,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/dokku_run">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
