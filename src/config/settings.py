@@ -3,16 +3,14 @@ import os
 import datetime
 import environ
 
-root = environ.Path(__file__) - 3
-env = environ.Env(DEBUG=(bool, False), )
-
-environ.Env.read_env(env_file='{}/.env'.format(root))
+from decouple import config
+from dj_database_url import parse as db_url
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-SECRET_KEY = env('SECRET_KEY')
+SECRET_KEY = config('SECRET_KEY')
 
-DEBUG = env('DEBUG')
+DEBUG = config('DEBUG', default=False, cast=bool)
 
 ALLOWED_HOSTS = []
 
@@ -70,7 +68,10 @@ WSGI_APPLICATION = 'wsgi.application'
 
 
 DATABASES = {
-    'default': env.db()
+    'default': config(
+        'DATABASE_URL',
+        cast=db_url
+    )
 }
 
 AUTH_PASSWORD_VALIDATORS = [
