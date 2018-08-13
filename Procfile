@@ -1,1 +1,1 @@
-web: sh -c 'cd src/ && exec gunicorn wsgi -w 3 --log-file -'
+web: bash scripts/dokku_run
