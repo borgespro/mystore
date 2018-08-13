@@ -1,1 +1,1 @@
-web: gunicorn src.wsgi
+web: gunicorn --reload --workers=3 --chdir src/ src.wsgi

@@ -53,7 +53,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Dockerfile" value="9" />
-          <entry key="Procfile" value="44" />
+          <entry key="Procfile" value="45" />
           <entry key="config" value="12" />
           <entry key="env" value="28" />
           <entry key="gitignore" value="9" />
@@ -67,7 +67,7 @@
         <counts>
           <entry key="Dockerfile" value="9" />
           <entry key="JSON" value="1" />
-          <entry key="PLAIN_TEXT" value="96" />
+          <entry key="PLAIN_TEXT" value="97" />
           <entry key="Python" value="11468" />
         </counts>
       </usages-collector>
@@ -116,7 +116,7 @@
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
+              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -1004,7 +1004,7 @@
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
