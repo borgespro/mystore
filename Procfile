@@ -1,1 +1,1 @@
-web: gunicorn src.wsgi--workers=3
+web: gunicorn src.wsgi -workers=3
