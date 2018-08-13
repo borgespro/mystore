@@ -1,1 +1,1 @@
-web: gunicorn src.wsgi --workers=3 --chdir src/
+mystore: gunicorn src.wsgi --workers=3 --chdir src/
