@@ -34,7 +34,8 @@ class StockMovementLine(BaseModel):
         'products.Product',
         on_delete=models.CASCADE,
         db_index=True,
-        limit_choices_to={'type': Product.SIMPLE}
+        limit_choices_to={'type': Product.SIMPLE},
+        related_name='stock_lines'
     )
     quantity = models.DecimalField('Quantidade', default=0.0, decimal_places=2, max_digits=8)
 

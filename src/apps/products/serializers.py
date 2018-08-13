@@ -1,3 +1,4 @@
+from django.db.models import Sum
 from rest_framework import serializers
 
 from apps.products.models import Category, Product, KitAttribute
@@ -35,10 +36,14 @@ class KitSerializer(serializers.ModelSerializer):
 
 class KitAttValueSerializer(serializers.ModelSerializer):
     value = ProductSerializer(many=False, read_only=True)
+    available_quantity = serializers.SerializerMethodField()
 
     class Meta:
         model = Product
-        fields = ('id', 'value')
+        fields = ('id', 'value', 'available_quantity')
+
+    def get_available_quantity(self, instance):
+        return instance.value.get_available_quantity()
 
 
 

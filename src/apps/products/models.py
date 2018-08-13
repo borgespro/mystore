@@ -1,5 +1,6 @@
 from django.core.exceptions import ValidationError
 from django.db import models
+from django.db.models import Sum
 
 from apps.base.models import BaseModel
 
@@ -40,13 +41,21 @@ class Product(BaseModel):
     def __str__(self):
         return '{} (Cat: {})'.format(self.name, self.category)
 
+    def get_available_quantity(self):
+        amount = self.stock_lines.all().aggregate(Sum('quantity'))
+        return amount['quantity__sum'] or 0
+
 
 def validate_kit(value):
-    if value.type != Product.KIT:
-        raise ValidationError(
-            _('%(value) is not a Kit.'),
-            params={'value': value},
-        )
+    try:
+        product = Product.objects.get(id=value)
+        if product.type != Product.KIT:
+            raise ValidationError(
+                _('%(value) is not a Kit.'),
+                params={'value': value},
+            )
+    except Product.DoesNotExist:
+        pass
 
 
 class KitAttribute(BaseModel):
@@ -66,13 +75,19 @@ class KitAttribute(BaseModel):
         verbose_name = 'Atributo'
         verbose_name_plural = 'Atributos'
         ordering = ('name',)
+        unique_together = ('kit', 'name')
 
     def __str__(self):
         return '{} - {}'.format(self.name, self.kit)
 
 
 class KitAttValue(BaseModel):
-    attribute = models.ForeignKey('KitAttribute', verbose_name='Atributo', on_delete=models.CASCADE)
+    attribute = models.ForeignKey(
+        'KitAttribute',
+        verbose_name='Atributo',
+        on_delete=models.CASCADE,
+        related_name='values'
+    )
     value = models.ForeignKey('Product', verbose_name='Valor', on_delete=models.CASCADE)
 
     class Meta:

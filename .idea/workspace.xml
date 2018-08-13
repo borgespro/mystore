@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="876fd2b1-ff02-402e-9d39-476ab1c7fc0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/apps/core/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/apps/sales/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/apps/sales/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/apps/base/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/base/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apps/core/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/core/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apps/core/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/core/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apps/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/core/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apps/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/core/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apps/products/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/products/filters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apps/products/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/products/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apps/products/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/products/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/products/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/products/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/products/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/apps/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/products/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apps/sales/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/sales/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apps/stocks/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/stocks/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/sales/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/sales/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/sales/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/sales/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/sales/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/sales/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stocks/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/stocks/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/stocks/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/stocks/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +23,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/mystore$Run_tests.coverage" NAME="Run tests Coverage Results" MODIFIED="1534005773072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/mystore$Test__apps_sales_tests_ProductAPITest_test_make_sale_order_logged_in.coverage" NAME="Test: apps.sales.tests.ProductAPITest.test_make_sale_order_logged_in Coverage Results" MODIFIED="1534094046993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/mystore$Run_tests.coverage" NAME="Run tests Coverage Results" MODIFIED="1534105381364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/mystore$Test__apps_sales_tests_ProductAPITest.coverage" NAME="Test: apps.sales.tests.ProductAPITest Coverage Results" MODIFIED="1534122276471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-303004124">
@@ -42,7 +44,7 @@
           <entry key="gitignore" value="2" />
           <entry key="html" value="1" />
           <entry key="json" value="1" />
-          <entry key="py" value="182" />
+          <entry key="py" value="251" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
@@ -51,7 +53,7 @@
           <entry key="Dockerfile" value="1" />
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="182" />
+          <entry key="Python" value="251" />
           <entry key="Scratch" value="1" />
           <entry key="YAML" value="1" />
         </counts>
@@ -60,7 +62,7 @@
         <counts>
           <entry key="gitignore" value="7" />
           <entry key="json" value="1" />
-          <entry key="py" value="6632" />
+          <entry key="py" value="10855" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -68,7 +70,7 @@
         <counts>
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="6632" />
+          <entry key="Python" value="10855" />
         </counts>
       </usages-collector>
     </session>
@@ -76,10 +78,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/apps/sales/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/apps/stocks/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="300">
+              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -88,38 +102,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/apps/core/admin.py">
+        <entry file="file://$PROJECT_DIR$/src/apps/sales/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/apps/sales/tests.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/apps/products/tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+            <state relative-caret-position="283">
+              <caret line="25" column="74" selection-start-line="25" selection-start-column="74" selection-end-line="25" selection-end-column="74" />
               <folding>
-                <element signature="e#0#33#0" expanded="true" />
+                <element signature="e#0#38#0" expanded="true" />
+                <marker date="1534122304734" expanded="true" signature="290:408" ph="..." />
+                <marker date="1534122304734" expanded="true" signature="754:759" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/apps/base/tests.py">
+        <entry file="file://$PROJECT_DIR$/src/apps/products/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="238">
+              <caret line="83" column="17" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="17" />
               <folding>
-                <element signature="e#0#46#0" expanded="true" />
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/apps/sales/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2">
+              <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+                <marker date="1534121214206" expanded="true" signature="288:291" ph="..." />
+                <marker date="1534121214206" expanded="true" signature="318:427" ph="..." />
+                <marker date="1534121214206" expanded="true" signature="1019:1025" ph="..." />
+                <marker date="1534121214206" expanded="true" signature="1796:1802" ph="..." />
               </folding>
             </state>
           </provider>
@@ -136,31 +154,42 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>class Meta</find>
-      <find>America/Sao</find>
-      <find>mystore</find>
-      <find>and ao invés disso especificar</find>
-      <find>UserAd</find>
-      <find>ListA</find>
-      <find>reverse('</find>
-      <find>fields =</find>
-      <find>query</find>
-      <find>http404</find>
-      <find>validators</find>
       <find>StockLineMovement</find>
       <find>verbose_name_plura</find>
       <find>.create</find>
-      <find>self.create</find>
       <find>def is</find>
       <find>ErrorDe</find>
       <find>.errors</find>
       <find>def save(</find>
       <find>set_password</find>
       <find>def save</find>
+      <find>value.</find>
+      <find>def create(</find>
+      <find>create</find>
+      <find>self.create</find>
+      <find>return validated_data</find>
+      <find>is_valid(</find>
+      <find>def is_valid(</find>
+      <find>serializer_related_field</find>
+      <find>field_class</find>
+      <find>dis</find>
+      <find>request.data</find>
+      <find>create(</find>
+      <find>.post(</find>
+      <find>validated_data</find>
+      <find>_validated_data</find>
+      <find>run_valida</find>
+      <find>non_fie</find>
+      <find>non_fi</find>
+      <find>.content[</find>
+      <find>non_field_erros</find>
+      <find>is required</find>
     </findStrings>
     <replaceStrings>
       <replace>StockMovementLine</replace>
       <replace>verbose_name_plural</replace>
+      <replace>.data[</replace>
+      <replace>non_field_errors</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -190,28 +219,33 @@
         <option value="$PROJECT_DIR$/src/apps/core/apps.py" />
         <option value="$PROJECT_DIR$/src/apps/core/__init__.py" />
         <option value="$PROJECT_DIR$/src/apps/base/pagination.py" />
-        <option value="$PROJECT_DIR$/src/apps/products/serializers.py" />
-        <option value="$PROJECT_DIR$/src/urls.py" />
         <option value="$PROJECT_DIR$/src/apps/stocks/apps.py" />
-        <option value="$PROJECT_DIR$/src/apps/sales/models.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/config/settings.py" />
         <option value="$PROJECT_DIR$/src/apps/products/admin.py" />
-        <option value="$PROJECT_DIR$/src/apps/stocks/serializers.py" />
         <option value="$PROJECT_DIR$/src/apps/core/views.py" />
         <option value="$PROJECT_DIR$/src/apps/core/urls.py" />
         <option value="$PROJECT_DIR$/src/apps/core/serializers.py" />
-        <option value="$PROJECT_DIR$/src/apps/products/views.py" />
         <option value="$PROJECT_DIR$/src/apps/products/urls.py" />
         <option value="$PROJECT_DIR$/src/apps/products/tests.py" />
         <option value="$PROJECT_DIR$/src/apps/products/filters.py" />
         <option value="$PROJECT_DIR$/src/apps/sales/admin.py" />
         <option value="$PROJECT_DIR$/src/apps/stocks/admin.py" />
-        <option value="$PROJECT_DIR$/src/apps/stocks/models.py" />
-        <option value="$PROJECT_DIR$/src/apps/core/tests.py" />
-        <option value="$PROJECT_DIR$/src/apps/products/models.py" />
-        <option value="$PROJECT_DIR$/src/apps/base/tests.py" />
         <option value="$PROJECT_DIR$/src/apps/core/admin.py" />
+        <option value="$PROJECT_DIR$/src/apps/products/views.py" />
+        <option value="$PROJECT_DIR$/src/apps/stocks/models.py" />
+        <option value="$PROJECT_DIR$/src/apps/stocks/tests.py" />
+        <option value="$PROJECT_DIR$/src/apps/core/tests.py" />
+        <option value="$PROJECT_DIR$/src/apps/products/serializers.py" />
+        <option value="$PROJECT_DIR$/src/apps/stocks/serializers.py" />
+        <option value="$PROJECT_DIR$/src/urls.py" />
+        <option value="$PROJECT_DIR$/src/apps/sales/urls.py" />
+        <option value="$PROJECT_DIR$/src/apps/base/tests.py" />
+        <option value="$PROJECT_DIR$/src/apps/sales/views.py" />
+        <option value="$PROJECT_DIR$/src/apps/sales/models.py" />
+        <option value="$PROJECT_DIR$/src/apps/products/models.py" />
+        <option value="$PROJECT_DIR$/src/apps/sales/tests.py" />
+        <option value="$PROJECT_DIR$/src/apps/sales/serializers.py" />
       </list>
     </option>
   </component>
@@ -222,10 +256,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="1221" />
-    <option name="width" value="1910" />
-    <option name="height" value="810" />
+    <option name="y" value="1078" />
+    <option name="width" value="1920" />
+    <option name="height" value="1082" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -265,20 +298,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mystore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mystore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="products" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mystore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mystore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="sales" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mystore" type="b2602c69:ProjectViewProjectNode" />
@@ -331,7 +350,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django tests.Run tests">
+  <component name="RunManager" selected="Django tests.Test: apps.sales.tests.ProductAPITest">
     <configuration name="Run tests" type="DjangoTestsConfigurationType" factoryName="Django tests" singleton="true">
       <module name="mystore" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -346,6 +365,46 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: apps.sales.tests.ProductAPITest" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
+      <module name="mystore" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="apps.sales.tests.ProductAPITest" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: apps.sales.tests.ProductAPITest.test_make_sale_order_logged_in" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
+      <module name="mystore" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="apps.sales.tests.ProductAPITest.test_make_sale_order_logged_in" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
@@ -379,7 +438,15 @@
     <list>
       <item itemvalue="Django server.Run Django" />
       <item itemvalue="Django tests.Run tests" />
+      <item itemvalue="Django tests.Test: apps.sales.tests.ProductAPITest.test_make_sale_order_logged_in" />
+      <item itemvalue="Django tests.Test: apps.sales.tests.ProductAPITest" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Django tests.Test: apps.sales.tests.ProductAPITest" />
+        <item itemvalue="Django tests.Test: apps.sales.tests.ProductAPITest.test_make_sale_order_logged_in" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -395,42 +462,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Run_tests - 2018.08.11 at 13h 25m 16s.xml">
-      <configuration name="Run tests" configurationId="DjangoTestsConfigurationType" />
+    <history-entry file="Test__apps_sales_tests_ProductAPITest - 2018.08.12 at 21h 37m 28s.xml">
+      <configuration name="Test: apps.sales.tests.ProductAPITest" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Run_tests - 2018.08.11 at 13h 26m 46s.xml">
-      <configuration name="Run tests" configurationId="DjangoTestsConfigurationType" />
+    <history-entry file="Test__apps_sales_tests_ProductAPITest - 2018.08.12 at 21h 39m 25s.xml">
+      <configuration name="Test: apps.sales.tests.ProductAPITest" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Run_tests - 2018.08.11 at 13h 29m 46s.xml">
-      <configuration name="Run tests" configurationId="DjangoTestsConfigurationType" />
+    <history-entry file="Test__apps_sales_tests_ProductAPITest - 2018.08.12 at 21h 39m 32s.xml">
+      <configuration name="Test: apps.sales.tests.ProductAPITest" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Run_tests - 2018.08.11 at 13h 36m 53s.xml">
-      <configuration name="Run tests" configurationId="DjangoTestsConfigurationType" />
+    <history-entry file="Test__apps_sales_tests_ProductAPITest - 2018.08.12 at 21h 47m 25s.xml">
+      <configuration name="Test: apps.sales.tests.ProductAPITest" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Run_tests - 2018.08.11 at 13h 36m 59s.xml">
-      <configuration name="Run tests" configurationId="DjangoTestsConfigurationType" />
+    <history-entry file="Test__apps_sales_tests_ProductAPITest - 2018.08.12 at 21h 48m 27s.xml">
+      <configuration name="Test: apps.sales.tests.ProductAPITest" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Run_tests - 2018.08.11 at 13h 38m 40s.xml">
-      <configuration name="Run tests" configurationId="DjangoTestsConfigurationType" />
+    <history-entry file="Test__apps_sales_tests_ProductAPITest - 2018.08.12 at 21h 59m 47s.xml">
+      <configuration name="Test: apps.sales.tests.ProductAPITest" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Run_tests - 2018.08.11 at 13h 38m 44s.xml">
-      <configuration name="Run tests" configurationId="DjangoTestsConfigurationType" />
+    <history-entry file="Test__apps_sales_tests_ProductAPITest - 2018.08.12 at 22h 01m 11s.xml">
+      <configuration name="Test: apps.sales.tests.ProductAPITest" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Run_tests - 2018.08.11 at 13h 42m 37s.xml">
-      <configuration name="Run tests" configurationId="DjangoTestsConfigurationType" />
+    <history-entry file="Test__apps_sales_tests_ProductAPITest - 2018.08.12 at 22h 01m 22s.xml">
+      <configuration name="Test: apps.sales.tests.ProductAPITest" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Run_tests - 2018.08.11 at 13h 42m 41s.xml">
-      <configuration name="Run tests" configurationId="DjangoTestsConfigurationType" />
+    <history-entry file="Test__apps_sales_tests_ProductAPITest - 2018.08.12 at 22h 02m 22s.xml">
+      <configuration name="Test: apps.sales.tests.ProductAPITest" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Run_tests - 2018.08.11 at 13h 42m 54s.xml">
-      <configuration name="Run tests" configurationId="DjangoTestsConfigurationType" />
+    <history-entry file="Test__apps_sales_tests_ProductAPITest - 2018.08.12 at 22h 04m 38s.xml">
+      <configuration name="Test: apps.sales.tests.ProductAPITest" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="1105" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27061427" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27006087" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -452,6 +519,29 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27061427" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39891893" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" weight="0.32901832" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -463,9 +553,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/apps/core/tests.py</url>
-          <line>51</line>
-          <option name="timeStamp" value="10" />
+          <url>file://$PROJECT_DIR$/src/apps/sales/tests.py</url>
+          <line>146</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -478,93 +568,75 @@
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>response.data</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.assertEqual(response.data['non_field_errors'][0],
+                         'Attribute Periférico in kit {} is not allowed'.format(self.pc_gamer.pk))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>username == 'admin'</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>self.initial_data['password']</expression-string>
+        <expression-string>kit_queryset[0], attribute</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>self.to_internal_value(data)</expression-string>
+        <expression-string>kit_queryset[0]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>self.run_validation(self.initial_data)</expression-string>
+        <expression-string>kit_queryset</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>serializer.is_valid()</expression-string>
+        <expression-string>{att.name for att in kit.kit_attributes.all() }</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>self.kwargs.get('attribute_iad')</expression-string>
+        <expression-string>{att.name for att in kit.kit_attributes.all() if line.attribute != att.name}</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>self.kwargs.get('attribute_id')</expression-string>
+        <expression-string>self.stock_lines.all().aggregate(Sum('quantity'))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>self.kwargs</expression-string>
+        <expression-string>line['product']</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>self</expression-string>
+        <expression-string>line['product'].get_available_quantity()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>self.get_object()</expression-string>
+        <expression-string>response.data['non_field_errors']</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/apps/core/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/options.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28695">
-          <caret line="1965" column="6" selection-start-line="1965" selection-start-column="6" selection-end-line="1965" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/urls/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/rest_framework/relations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django_filters/filters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/urls/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="181" column="81" selection-start-line="181" selection-start-column="76" selection-end-line="181" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/rest_framework/reverse.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
@@ -617,30 +689,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding>
-            <element signature="e#631#663#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1395">
           <caret line="93" column="14" lean-forward="true" selection-start-line="93" selection-start-column="14" selection-end-line="93" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -655,69 +707,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/apps/products/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-            <marker date="1533927359063" expanded="true" signature="161:166" ph="..." />
-            <marker date="1533927359063" expanded="true" signature="368:369" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/rest_framework/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="298" selection-start-line="298" selection-end-line="298" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/rest_framework/generics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="191" column="23" selection-start-line="191" selection-start-column="23" selection-end-line="191" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/rest_framework/mixins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/rest_framework/request.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="211" selection-start-line="211" selection-end-line="211" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/rest_framework/fields.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="519" selection-start-line="519" selection-end-line="519" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/apps/core/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-            <marker date="1533865457227" expanded="true" signature="108:109" ph="..." />
-            <marker date="1533865457227" expanded="true" signature="108:133" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/rest_framework/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="702" column="4" selection-start-line="702" selection-start-column="4" selection-end-line="702" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -763,26 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/apps/products/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding>
-            <marker date="1534005586242" expanded="true" signature="499:500" ph="..." />
-            <marker date="1534005586242" expanded="true" signature="600:684" ph="..." />
-            <marker date="1534005586242" expanded="true" signature="973:974" ph="..." />
-            <marker date="1534005586242" expanded="true" signature="1407:1408" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/apps/products/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/apps/products/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -809,20 +782,6 @@
     <entry file="file://$PROJECT_DIR$/src/apps/sales/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/apps/sales/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="57" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-            <marker date="1533994751188" expanded="true" signature="131:240" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/apps/sales/views.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/apps/stocks/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -837,74 +796,262 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/apps/stocks/serializers.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/apps/stocks/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/apps/stocks/views.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/apps/core/tests.py">
+    <entry file="file://$PROJECT_DIR$/src/apps/core/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="65" column="42" lean-forward="true" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/apps/products/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-            <marker date="1534005770374" expanded="true" signature="1201:1357" ph="..." />
-            <marker date="1534005770374" expanded="true" signature="2049:2052" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/apps/sales/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/apps/products/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        <state relative-caret-position="375">
+          <caret line="145" column="73" lean-forward="true" selection-start-line="39" selection-end-line="145" selection-end-column="73" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/apps/base/tests.py">
+    <entry file="file://$PROJECT_DIR$/src/apps/core/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state relative-caret-position="90">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="24" />
           <folding>
-            <element signature="e#0#46#0" expanded="true" />
+            <element signature="e#0#51#0" expanded="true" />
+            <marker date="1533865457227" expanded="true" signature="108:109" ph="..." />
+            <marker date="1533865457227" expanded="true" signature="108:133" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/apps/stocks/models.py">
+    <entry file="file://$PROJECT_DIR$/src/apps/stocks/serializers.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apps/products/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state>
+          <caret selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1534006824853" expanded="true" signature="499:500" ph="..." />
+            <marker date="1534006824853" expanded="true" signature="600:684" ph="..." />
+            <marker date="1534006824853" expanded="true" signature="973:974" ph="..." />
+            <marker date="1534006824853" expanded="true" signature="1407:1408" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apps/products/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-line="13" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/apps/core/admin.py">
+    <entry file="file://$PROJECT_DIR$/src/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        <state relative-caret-position="330">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <folding>
+            <element signature="e#631#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apps/core/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apps/sales/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="54" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/rest_framework/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="273" selection-start-line="273" selection-end-line="273" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/rest_framework/exceptions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="138" column="21" selection-start-line="138" selection-start-column="6" selection-end-line="138" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/rest_framework/fields.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="509" column="8" selection-start-line="509" selection-start-column="8" selection-end-line="509" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/rest_framework/validators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="604" selection-start-line="604" selection-end-line="604" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apps/stocks/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="93" column="69" selection-start-line="93" selection-start-column="43" selection-end-line="93" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/rest_framework_jwt/authentication.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="70" column="32" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/rest_framework/generics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="240" column="23" selection-start-line="240" selection-start-column="23" selection-end-line="240" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/rest_framework/mixins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apps/base/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apps/sales/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/rest_framework/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="644" column="35" selection-start-line="644" selection-start-column="29" selection-end-line="644" selection-end-column="35" />
+          <folding>
+            <element signature="e#444#483#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apps/products/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+            <marker date="1534012521128" expanded="true" signature="194:199" ph="..." />
+            <marker date="1534012521128" expanded="true" signature="401:402" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apps/sales/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+            <marker date="1534121214206" expanded="true" signature="288:291" ph="..." />
+            <marker date="1534121214206" expanded="true" signature="318:427" ph="..." />
+            <marker date="1534121214206" expanded="true" signature="1019:1025" ph="..." />
+            <marker date="1534121214206" expanded="true" signature="1796:1802" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apps/products/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="83" column="17" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apps/sales/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apps/stocks/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apps/sales/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="25" column="74" selection-start-line="25" selection-start-column="74" selection-end-line="25" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <marker date="1534122304734" expanded="true" signature="290:408" ph="..." />
+            <marker date="1534122304734" expanded="true" signature="754:759" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

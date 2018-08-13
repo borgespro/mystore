@@ -53,6 +53,6 @@ class AttributeValueList(generics.ListAPIView):
     def get_queryset(self):
         attribute_id = self.kwargs.get('attribute_id')
         if attribute_id and KitAttribute.objects.filter(pk=attribute_id).exists():
-            return KitAttValue.objects.filter(attribute=attribute_id).order_by('id')
+            return KitAttValue.objects.filter(attribute=attribute_id).prefetch_related('value').order_by('id')
         else:
             raise Http404('Kit Attribute not found!')
