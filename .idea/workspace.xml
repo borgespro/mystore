@@ -56,7 +56,7 @@
           <entry key="Dockerfile" value="9" />
           <entry key="Procfile" value="82" />
           <entry key="config" value="12" />
-          <entry key="dokku_run" value="18" />
+          <entry key="dokku_run" value="35" />
           <entry key="env" value="28" />
           <entry key="gitignore" value="9" />
           <entry key="json" value="1" />
@@ -69,7 +69,7 @@
         <counts>
           <entry key="Dockerfile" value="9" />
           <entry key="JSON" value="1" />
-          <entry key="PLAIN_TEXT" value="152" />
+          <entry key="PLAIN_TEXT" value="169" />
           <entry key="Python" value="11468" />
         </counts>
       </usages-collector>
@@ -125,7 +125,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/dokku_run">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -1014,7 +1018,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/dokku_run">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
