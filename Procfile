@@ -1,1 +1,1 @@
-web: gunicorn --chdir src src.wsgi -w 3
+web: sh -c 'cd ./src/ && exec gunicorn wsgi -w 3 --log-file -'
