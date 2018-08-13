@@ -1,1 +1,1 @@
-gunicorn --chdir src src.wsgi -w 3 --log-file -
+gunicorn src.wsgi -w 3 --chdir /src 
