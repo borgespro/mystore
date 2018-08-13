@@ -1,1 +1,1 @@
-web: gunicorn src.wsgi -w 3 --chdir=src/
+web: gunicorn --chdir src src.wsgi -w 3
