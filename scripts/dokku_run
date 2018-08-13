@@ -1,1 +1,0 @@
-gunicorn --chdir src src.wsgi

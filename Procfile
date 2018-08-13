@@ -1,1 +1,1 @@
-web: gunicorn src.wsgi -w 4
+web: gunicorn src.wsgi -w 4 --reload
