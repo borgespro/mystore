@@ -1,1 +1,1 @@
-web: bash scripts/dokku_run
+web: gunicorn src.wsgi
